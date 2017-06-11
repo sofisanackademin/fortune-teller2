@@ -17,7 +17,7 @@ import static org.junit.Assert.assertEquals;
 public class FortuneTellerGuiIT {
     FortuneTeller fortuneTeller;
     FortuneTellerGui fortuneTellerGui;
-
+/*
     @Test(timeout = 10000)
     public void testGetFortuneUsingGui() {
         window.textBox("nameField").enterText("Sture Hagfors");
@@ -177,6 +177,6 @@ public class FortuneTellerGuiIT {
     @After
     public void tearDown() {
         window.cleanUp();
-    }
+    }*/
 }
 
